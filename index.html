@@ -11,6 +11,7 @@
         h2 { color: #34495e; margin-top: 30px; }
         .last-updated { color: #7f8c8d; font-style: italic; margin-bottom: 30px; }
         .contact-box { background: #f0f7ff; padding: 20px; border-left: 4px solid #007bff; margin-top: 30px; }
+        .disclaimer-box { background: #fff3cd; border: 1px solid #ffeeba; padding: 15px; border-radius: 4px; color: #856404; font-size: 0.9em; margin-top: 20px; }
         ul { padding-left: 20px; }
         li { margin-bottom: 10px; }
     </style>
@@ -24,36 +25,36 @@
 
         <h2>1. Information We Collect</h2>
         <ul>
-            <li><strong>Account Information:</strong> We collect your name and email address via Firebase Authentication to create your account and link you with your partner.</li>
-            <li><strong>Household Data:</strong> We store chores, task durations, and "Burst" messages to sync them across devices in your household.</li>
-            <li><strong>Audio Data:</strong> We process voice recordings only when you use the Voice Log feature. This audio is processed ephemerally for transcription and is <strong>not</strong> stored permanently on our servers.</li>
-            <li><strong>Device Identifiers:</strong> We collect non-identifying device IDs for app functionality, security, and push notifications via Firebase.</li>
+            <li><strong>Account Information:</strong> We collect your name and email address via Firebase Authentication.</li>
+            <li><strong>Household Data:</strong> We store chores, task durations, and "Burst" messages to sync them within your household.</li>
+            <li><strong>Audio Data:</strong> Voice recordings are processed ephemerally for transcription and are <strong>not</strong> stored permanently.</li>
+            <li><strong>Device Identifiers:</strong> We collect non-identifying IDs for app functionality and security via Firebase.</li>
         </ul>
 
         <h2>2. Use of Artificial Intelligence</h2>
-        <p>PairCalm uses the Google Gemini API to provide "Coach Insights" and tone-shifting features.</p>
+        <p>PairCalm uses the Google Gemini API to provide "Coach Insights" and features.</p>
         <ul>
-            <li><strong>Data Processing:</strong> Relevant task data and messages are sent to the API to generate insights.</li>
-            <li><strong>Privacy:</strong> We do not use your personal prompts to train AI models. Processing is subject to Google's Privacy Policy.</li>
+            <li><strong>Privacy:</strong> We do not use your personal prompts to train AI models.</li>
         </ul>
 
         <h2>3. Data Storage & Sharing</h2>
-        <ul>
-            <li><strong>Storage:</strong> Data is stored securely using Google Firebase (encrypted in transit and at rest).</li>
-            <li><strong>Sharing:</strong> Your data is shared only with your linked partner. We do not sell or share your data with third-party advertisers or unauthorized organizations.</li>
-        </ul>
+        <p>Data is stored securely using Google Firebase and is shared only with your linked partner. We do not sell data to third parties.</p>
 
         <h2>4. Data Deletion & Management</h2>
-        <p>We provide users with full control over their data in compliance with Google Play requirements:</p>
         <ul>
-            <li><strong>Delete All Data (Partial Deletion):</strong> You can wipe all chores, history, and preferences while keeping your account active via the "Delete All Data" button in the App Settings.</li>
-            <li><strong>Account Deletion:</strong> You can delete your entire account and all associated personal data via the Settings menu.</li>
-            <li><strong>External Requests:</strong> If you no longer have the app installed, you may request account or data deletion by contacting us at the email below. We process all requests within 48 hours.</li>
+            <li><strong>Delete All Data:</strong> You can wipe all chores and history via the Settings menu while keeping your account.</li>
+            <li><strong>Account Deletion:</strong> You can delete your entire account and all associated data via the Settings menu.</li>
         </ul>
 
+        <h2>5. Important Disclaimers</h2>
+        <div class="disclaimer-box">
+            <strong>Educational Tool Only:</strong> PairCalm and its AI-generated "Coach Insights" are intended solely for informational and organizational purposes. 
+            PairCalm is <strong>not</strong> a medical device, a mental health therapy tool, or a substitute for professional medical, psychological, or legal advice. 
+            Always seek the advice of a qualified professional for any health or legal concerns.
+        </div>
+
         <div class="contact-box">
-            <h2>5. Contact Us</h2>
-            <p>For any questions regarding this policy or to request data deletion, please contact us at:</p>
+            <h2>6. Contact Us</h2>
             <p><strong>Email:</strong> hello.paircalm@gmail.com</p>
         </div>
     </div>
